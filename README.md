@@ -15,6 +15,10 @@ $ terraform test
 ```bash
 $ リモートの状態に合うようにステートファイルをアップデート
 ```
+### terraform output
+```bash
+$ パスワードなどoutputされた値を確認できる
+```
 - terraform init
 - terraform plan
 - terraform apply
