@@ -19,7 +19,7 @@ $ terraform refresh
 ```bash
 $ terraform output
 ```
-### リソース間の依存関係を可視化
+### リソース間の依存関係を可視化（graphvizをinstallすると画像に変換できる）
 ```bash
 $ terraform graph
 ```
