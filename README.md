@@ -23,3 +23,4 @@ $ パスワードなどoutputされた値を確認できる
 - terraform plan
 - terraform apply
 - terraform destroy
+- データソースを使ってAWSなどの既存リソースを参照できる(サブネットIDを調節指定でも可だが)
