@@ -11,13 +11,17 @@ $ terraform import
 ```bash
 $ terraform test
 ```
-### terraform refresh
+### リモートの状態に合うようにステートファイルをアップデート
 ```bash
-$ リモートの状態に合うようにステートファイルをアップデート
+$ terraform refresh
 ```
-### terraform output
+### パスワードなどoutputされた値を確認できる
 ```bash
-$ パスワードなどoutputされた値を確認できる
+$ terraform output
+```
+### リソース間の依存関係を可視化
+```bash
+$ terraform graph
 ```
 - terraform init
 - terraform plan
